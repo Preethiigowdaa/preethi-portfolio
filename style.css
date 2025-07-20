@@ -1547,6 +1547,10 @@ section {
         text-align: center;
     }
     
+    .about-image {
+        order: -1;
+    }
+    
     .image-container {
         width: 280px;
         height: 280px;
@@ -1679,6 +1683,10 @@ section {
     .about-content {
         grid-template-columns: 1fr;
         gap: 2.5rem;
+    }
+    
+    .about-image {
+        order: -1;
     }
     
     .about-intro h3 {
