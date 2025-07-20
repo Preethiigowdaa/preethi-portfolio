@@ -1,0 +1,48 @@
+{
+  "name": "preethi-gowda-portfolio",
+  "version": "1.0.0",
+  "description": "An innovative, girl boss themed portfolio website for Preethi Gowda designed to impress recruiters with feminine power, cutting-edge animations and modern design",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "gh-pages -d .",
+    "dev": "npx live-server --port=3000 --open=/index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "frontend",
+    "fullstack",
+    "react",
+    "javascript",
+    "html",
+    "css",
+    "animations",
+    "gsap",
+    "responsive",
+    "modern",
+    "futuristic",
+    "space-theme"
+  ],
+  "author": "Preethi Gowda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/your-username.github.io.git"
+  },
+  "homepage": "https://your-username.github.io",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^6.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
