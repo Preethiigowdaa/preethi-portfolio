@@ -1298,6 +1298,22 @@ section {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icon {
+    font-size: 4rem;
+    color: var(--text-primary);
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.project-card:hover .project-icon {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .project-overlay {
@@ -1346,10 +1362,42 @@ section {
     padding: 2rem;
 }
 
-.project-content h3 {
-    font-size: 1.3rem;
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1rem;
+}
+
+.project-header h3 {
+    font-size: 1.3rem;
     color: var(--text-primary);
+    margin: 0;
+}
+
+.project-links-inline {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.project-link-inline {
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    color: var(--background-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.project-link-inline:hover {
+    background: var(--secondary-color);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(255, 64, 129, 0.3);
 }
 
 .project-content p {
@@ -1371,6 +1419,32 @@ section {
     border-radius: 20px;
     font-size: 0.8rem;
     border: 1px solid var(--secondary-color);
+}
+
+.project-features {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.feature-tag {
+    background: linear-gradient(135deg, var(--rose-gold), var(--lavender));
+    color: var(--background-dark);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 64, 129, 0.2);
+}
+
+.feature-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 64, 129, 0.3);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: var(--text-primary);
 }
 
 /* Contact Section */
@@ -1832,6 +1906,16 @@ section {
     
     .social-icons {
         gap: 1rem;
+    }
+    
+    .project-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .project-links-inline {
+        align-self: flex-end;
     }
 }
 
