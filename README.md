@@ -1,6 +1,6 @@
-# 💖 Preethi Gowda - Girl Boss Portfolio
+# 💖 Preethi Gowda 
 
-An innovative, feminine-themed portfolio website designed to impress recruiters and showcase Preethi's software development skills. This portfolio features a stunning pink/purple "girl boss" color scheme, cutting-edge animations, interactive elements, and a modern design that will make you stand out from the crowd.
+An innovative, feminine-themed portfolio website designed to impress recruiters and showcase software development skills. This portfolio features a stunning pink/purple "girl boss" color scheme, cutting-edge animations, interactive elements, and a modern design that will make you stand out from the crowd.
 
 ## ✨ Features
 
@@ -373,5 +373,6 @@ Add Google Analytics to track visitors:
 ---
 
 🎯 **Ready to impress recruiters?** Follow these instructions, customize with your information, and launch your amazing portfolio!
+
 
 **Your journey to landing that dream job starts now!** 🚀 
