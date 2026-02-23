@@ -6,11 +6,10 @@ const urlsToCache = [
   '/style.css',
   '/script.js',
   '/README.md',
-  'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo:wght@300;400;600&display=swap',
+  'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@500;600;700&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css',
   'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'
+  'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js'
 ];
 
 // Install Service Worker
