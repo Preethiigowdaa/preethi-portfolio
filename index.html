@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Preethi L — Full-stack Software Developer. .NET Core, React, Vue, AWS. 2.5+ years building scalable web applications.">
+    <meta name="description" content="Preethi L — Full-stack Software Developer. .NET Core, React, Vue, Node.js, AWS & GCP. 2.5+ years building enterprise web applications.">
     <title>Preethi L — Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@500;600;700&display=swap" rel="stylesheet">
@@ -23,6 +23,7 @@
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
                 <a href="#education" class="nav-link">Education</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
@@ -44,8 +45,9 @@
                     <span class="line typing-effect">Software Developer</span>
                 </h1>
                 <p class="hero-description">
-                    Results-oriented Software Developer with 2.5+ years of experience building scalable web applications using .NET Core, C#, React.js, and SQL. Skilled in API development, data management, and AWS deployment.
+                    Full Stack Software Developer with 2.5+ years of experience building enterprise web applications using .NET Core, C#, React.js, Node.js, and SQL. I work on pharma intelligence platforms used by 800+ users, with a focus on performance optimization, cloud (AWS & GCP), and scalable dashboards. One of my contributions was improving module load times by ~50% through API optimization, GCS signed-URL caching, and better data loading.
                 </p>
+                <p class="hero-key-impact">Key impact: ~50% faster dashboard load times, GCS-based secure file workflows, and production features used by 800+ enterprise users.</p>
                 <div class="hero-buttons">
                     <a href="Preethi_Gowda.pdf" download class="btn-primary">
                         <span>Download Resume</span>
@@ -77,13 +79,13 @@
                     <div class="about-intro">
                         <h3>About Me</h3>
                         <p>
-                            I'm a Software Developer at DataZymes with 2.5+ years of experience building scalable full-stack solutions used by 800+ users. I work with .NET Core, C#, React.js, Vue.js, and SQL to deliver enterprise-grade features.
+                            I'm a Full Stack Software Developer at DataZymes with 2.5+ years of experience building enterprise web applications in pharma intelligence. I work with .NET Core, C#, React.js, Vue.js, Node.js, and SQL on platforms used by 800+ enterprise users.
                         </p>
                         <p>
-                            I design and optimize RESTful APIs with JWT/OAuth authentication and RBAC, integrate cloud storage, and contribute to UI prototypes and database architecture. I deploy and maintain applications on AWS using S3, EC2, CodeBuild, App Runner, and ECR with Docker for CI/CD.
+                            My work focuses on dashboards, backend API optimization, and cloud storage integration. I've used Google Cloud Storage (GCS) for secure document management—signed-URL access and RBAC for content delivery—and contributed to moving parts of our stack from .NET Core to Node.js/Express while keeping existing APIs stable.
                         </p>
                         <p>
-                            I collaborate with Data Engineers, QA, and stakeholders to clarify requirements and deliver reliably. I'm focused on clean code, performance optimization, and continuous learning.
+                            I improved Landing and Resource Center load times by ~50% through batching API requests, parallelizing file and folder loading, and GCS caching. I also collaborate with Data Engineers, QA, and stakeholders on production features and care about clean code and usable UI for data-heavy apps.
                         </p>
                     </div>
                     <div class="about-details">
@@ -175,14 +177,10 @@
                 <div class="skill-category">
                     <h3>Cloud & DevOps</h3>
                     <div class="skill-tags">
+                        <span class="skill-tag">AWS (S3, EC2, CodeBuild, App Runner, ECR)</span>
+                        <span class="skill-tag">Google Cloud Storage (GCS)</span>
                         <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">AWS S3</span>
-                        <span class="skill-tag">EC2</span>
-                        <span class="skill-tag">Lambda</span>
-                        <span class="skill-tag">CodeBuild</span>
-                        <span class="skill-tag">App Runner</span>
-                        <span class="skill-tag">ECR</span>
-                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">CI/CD Pipelines</span>
                     </div>
                 </div>
                 <div class="skill-category">
@@ -215,11 +213,12 @@
                         <h3>Software Developer</h3>
                         <h4>DataZymes, Bengaluru</h4>
                         <ul class="timeline-list">
-                            <li>Built and maintained scalable full-stack solutions using .NET Core, C#, React.js, Vue.js, SQL, and Postgres, delivering enterprise-grade features used by 800+ users.</li>
-                            <li>Designed and optimized RESTful APIs with JWT/OAuth authentication, RBAC, and integrated libraries like pptxgenjs. Integrated Google Cloud Storage for secure file management.</li>
-                            <li>Contributed to UI prototypes, user flows, and database architecture; optimized backend APIs to reduce redundancy and improve performance.</li>
-                            <li>Collaborated with Data Engineers, QA teams, and stakeholders to clarify requirements and ensure reliable delivery.</li>
-                            <li>Deployed and maintained applications on AWS using S3, EC2, CodeBuild, App Runner, and ECR with Docker for CI/CD.</li>
+                            <li>Built and maintained full-stack enterprise applications using .NET Core, C#, React.js, Vue.js, SQL, and PostgreSQL, delivering production features used by 800+ users.</li>
+                            <li>Developed and optimized RESTful APIs with JWT/OAuth authentication and Role-Based Access Control (RBAC) to ensure secure access to sensitive pharmaceutical intelligence data.</li>
+                            <li>Integrated Google Cloud Storage (GCS) for secure document and media management, implementing signed-URL based access and reducing redundant file fetch calls across Library and Resource Center modules.</li>
+                            <li>Improved application performance by optimizing backend APIs, batching category requests, and parallelizing file and subfolder loading, resulting in ~50% faster module load times.</li>
+                            <li>Contributed to the retooling of legacy .NET Core services to Node.js/Express (TypeScript) while maintaining existing APIs and supporting scalable dashboard workflows.</li>
+                            <li>Deployed and maintained applications on AWS using CodeBuild, App Runner, ECR, and Docker, supporting CI/CD pipelines across Dev, QnA, and Production environments.</li>
                         </ul>
                         <div class="experience-tags">
                             <span class="tag">.NET Core</span>
@@ -246,12 +245,13 @@
                 <div class="project-card">
                     <div class="project-content">
                         <h3>Intellia</h3>
-                        <p class="project-meta"><span class="project-type company">Company</span> – Pharma Competitive Intelligence Platform</p>
+                        <p class="project-meta"><span class="project-type company">DataZymes</span> – Pharma Competitive Intelligence Platform</p>
                         <ul class="project-details">
-                            <li>Developed multiple dashboards using React.js, .NET Core APIs, and Highcharts.js; enabled users to download customized, editable PPTs via PptxGenJS.</li>
-                            <li>Optimized backend APIs and database schemas.</li>
-                            <li>Owned Library, Newsfeed and chatbot modules with Google Cloud Storage.</li>
-                            <li>Improved UI/UX and data visualization.</li>
+                            <li>Developed dashboards using React.js, .NET Core APIs, and Highcharts.js to visualize pharmaceutical intelligence data.</li>
+                            <li>Enabled automated generation of customizable PowerPoint reports using PptxGenJS to support stakeholder reporting workflows.</li>
+                            <li>Owned the Library, Newsfeed, and Chatbot modules, integrating Google Cloud Storage (GCS) for secure file storage and retrieval with RBAC-based access control.</li>
+                            <li>Improved Landing and Resource Center load time by ~50% by batching category API requests, parallelizing file and subfolder loads, and implementing signed-URL caching to reduce redundant API calls.</li>
+                            <li>Contributed to ongoing retooling from legacy .NET Core APIs to Node.js/Express architecture while ensuring backward compatibility and performance stability.</li>
                         </ul>
                         <div class="project-tech">
                             <span>React.js</span>
@@ -265,12 +265,12 @@
                 <div class="project-card">
                     <div class="project-content">
                         <h3>M4</h3>
-                        <p class="project-meta"><span class="project-type company">Company</span> – Pharma Data Management Platform</p>
+                        <p class="project-meta"><span class="project-type company">DataZymes</span> – Pharma Data Management Platform</p>
                         <ul class="project-details">
-                            <li>Owned UI and edit functionality with responsive, interactive interfaces using Angular and Express.js APIs.</li>
-                            <li>Integrated Vertex AI for contextual search and chat.</li>
-                            <li>Implemented reactive updates and seamless UI state handling.</li>
-                            <li>Refined forms, tables, and dashboard layouts for accessibility.</li>
+                            <li>Owned UI and edit functionality for complex data management workflows using Angular and integrated Express.js APIs.</li>
+                            <li>Integrated Vertex AI endpoints for contextual search and chat to support analytics and decision-making for pharma CI use cases.</li>
+                            <li>Implemented reactive UI updates using shared services and optimized state handling for seamless data interaction and display.</li>
+                            <li>Improved usability of forms, tables, and dashboards by refining layouts, accessibility, and user interaction flows.</li>
                         </ul>
                         <div class="project-tech">
                             <span>Angular</span>
@@ -282,12 +282,13 @@
                 <div class="project-card">
                     <div class="project-content">
                         <h3>Maven</h3>
-                        <p class="project-meta"><span class="project-type company">Company</span> – Pharma Marketing Test and Control Platform</p>
+                        <p class="project-meta"><span class="project-type company">DataZymes</span> – Pharma Marketing Test and Control Platform</p>
                         <ul class="project-details">
-                            <li>Developed React-based Test & Control analytics dashboard with real-time data visualization and statistical insights.</li>
-                            <li>Built interactive charts and tables with Recharts; designed prototypes, user flows, and database architecture.</li>
-                            <li>Owned Run Iterations module; built file upload/analysis workflow with CSV parsing and progress tracking.</li>
-                            <li>Managed AWS deployment (CodeBuild, ECR, App Runner); mentored juniors.</li>
+                            <li>Developed a React-based Test & Control analytics dashboard with real-time data visualization for experiment results, lift calculations, and reporting insights.</li>
+                            <li>Built interactive charts and tables using Recharts to support high-frequency experiment analysis and data-driven decision workflows.</li>
+                            <li>Owned the Run Iterations module, implementing dynamic multi-scenario configurations, complex form handling, and optimized state management for seamless UI updates.</li>
+                            <li>Developed a file upload and analysis workflow with CSV parsing, drag-and-drop support, and progress tracking for large dataset processing.</li>
+                            <li>Supported deployments across Dev, QnA, and Production environments using Docker, AWS CodeBuild, ECR, and App Runner as part of CI/CD pipelines.</li>
                         </ul>
                         <div class="project-tech">
                             <span>React</span>
@@ -302,10 +303,11 @@
                         <h3>AI-ResumeMatcher</h3>
                         <p class="project-meta"><span class="project-type personal">Personal</span></p>
                         <ul class="project-details">
-                            <li>AI-powered resume matching platform using React.js and FastAPI.</li>
-                            <li>Integrating OpenAI GPT and BERT embeddings for skill extraction and compatibility scoring.</li>
-                            <li>Firebase auth (Google OAuth + email/password), MongoDB for user data.</li>
-                            <li>File processing for PDF, DOCX, TXT with pdfminer and python-docx.</li>
+                            <li>Built an AI-powered resume matching platform using React.js with a FastAPI backend to compare resumes against job descriptions using semantic similarity.</li>
+                            <li>Integrated OpenAI GPT and BERT embeddings for intelligent skill extraction and contextual compatibility scoring from unstructured resume data.</li>
+                            <li>Implemented Firebase authentication (Google OAuth and email/password) and MongoDB for secure user and document management.</li>
+                            <li>Developed a multi-format resume parsing pipeline supporting PDF, DOCX, and TXT using pdfminer and python-docx for automated text extraction.</li>
+                            <li>Deployed a working prototype for end-to-end resume upload, parsing, and AI-based scoring workflows (currently disabled after removing API and Firebase keys for security).</li>
                         </ul>
                         <div class="project-tech">
                             <span>React.js</span>
@@ -315,6 +317,43 @@
                             <span>MongoDB</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Achievements Section -->
+    <section id="achievements" class="key-achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Key Achievements</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="key-achievements-grid">
+                <div class="key-achievement-card">
+                    <div class="key-achievement-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    <h4>~50% Faster Module Load Time</h4>
+                    <p>Optimized API calls, parallelized file loading, and implemented GCS signed-URL caching to improve performance of Library and Resource Center modules.</p>
+                </div>
+                <div class="key-achievement-card">
+                    <div class="key-achievement-icon"><i class="fas fa-users"></i></div>
+                    <h4>800+ Active Enterprise Users</h4>
+                    <p>Built and maintained production features for pharma intelligence platforms used by 800+ users across dashboards, reporting, and data workflows.</p>
+                </div>
+                <div class="key-achievement-card">
+                    <div class="key-achievement-icon"><i class="fas fa-cloud"></i></div>
+                    <h4>GCP + AWS Cloud Experience</h4>
+                    <p>Worked with Google Cloud Storage for secure file handling and AWS (CodeBuild, App Runner, ECR, Docker) for CI/CD and deployments across environments.</p>
+                </div>
+                <div class="key-achievement-card">
+                    <div class="key-achievement-icon"><i class="fas fa-code-branch"></i></div>
+                    <h4>Retooling from .NET to Node.js</h4>
+                    <p>Contributed to modernization of legacy .NET Core services to Node.js/Express while maintaining existing APIs and ensuring stable performance.</p>
+                </div>
+                <div class="key-achievement-card">
+                    <div class="key-achievement-icon"><i class="fas fa-robot"></i></div>
+                    <h4>AI + Automation Projects</h4>
+                    <p>Built an AI-powered Resume Matcher with GPT, BERT embeddings, and automated resume parsing supporting PDF, DOCX, and TXT formats.</p>
                 </div>
             </div>
         </div>
@@ -342,17 +381,45 @@
                 <div class="achievements-grid">
                     <div class="achievement-item">
                         <div class="achievement-icon">
-                            <i class="fas fa-trophy"></i>
+                            <i class="fas fa-tachometer-alt"></i>
                         </div>
-                        <h4>Hackathon Winner</h4>
-                        <p><strong>DataZymes</strong> — 1st place for building an AI-based Data Quality Platform (innovation in data validation and anomaly detection).</p>
+                        <h4>Improved Application Performance</h4>
+                        <p>Optimized Landing and Resource Center modules by batching category requests, parallelizing file and subfolder loads, and implementing signed-URL caching with Google Cloud Storage, resulting in ~50% faster load times for data-heavy dashboards.</p>
                     </div>
                     <div class="achievement-item">
                         <div class="achievement-icon">
-                            <i class="fas fa-star"></i>
+                            <i class="fas fa-building"></i>
                         </div>
-                        <h4>Excellence Award</h4>
-                        <p><strong>DataZymes</strong> — Client appreciation and internal recognition for excellence in project execution and teamwork.</p>
+                        <h4>Enterprise-Scale Product Contribution</h4>
+                        <p>Contributed to building and maintaining pharma intelligence platforms used by 800+ enterprise users—dashboards, secure content workflows, and reporting.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h4>Cloud Integration with GCP & AWS</h4>
+                        <p>Integrated Google Cloud Storage (GCS) for secure document and media management with signed-URL based access and RBAC enforcement, while also supporting deployments on AWS using CodeBuild, App Runner, ECR, and Docker-based CI/CD pipelines.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h4>Legacy System Retooling</h4>
+                        <p>Worked across legacy .NET Core APIs and ongoing retooling to Node.js/Express architecture, ensuring backward compatibility, performance stability, and smooth feature delivery during platform modernization.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Dashboard & Reporting Automation</h4>
+                        <p>Developed interactive React dashboards using Highcharts and Recharts, and enabled automated PPT report generation using PptxGenJS to streamline stakeholder reporting workflows.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h4>Module Ownership & Feature Delivery</h4>
+                        <p>Owned and delivered core modules including Library, Newsfeed, Chatbot, and Run Iterations, handling complex UI workflows, file management, and large dataset visualization in production environments.</p>
                     </div>
                 </div>
             </div>
@@ -368,8 +435,8 @@
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Ready to work together?</h3>
-                    <p>I'm always excited to work on new projects and collaborate with amazing people. Let's discuss how we can bring your ideas to life!</p>
+                    <h3>Get in touch</h3>
+                    <p>Open to new opportunities and collaboration. If you'd like to connect or discuss a project, drop a message below.</p>
                     <div class="contact-details">
                         <a href="mailto:preethigowda940@gmail.com" class="contact-item contact-link">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
