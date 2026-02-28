@@ -73,18 +73,6 @@ gsap.timeline()
         y: 50,
         opacity: 0,
         ease: 'power3.out'
-    }, '-=0.5')
-    .from('.hero-key-impact', {
-        duration: 0.8,
-        y: 30,
-        opacity: 0,
-        ease: 'power3.out'
-    }, '-=0.6')
-    .from('.hero-buttons', {
-        duration: 1,
-        y: 50,
-        opacity: 0,
-        ease: 'power3.out'
     }, '-=0.5');
 
 // Section animations
